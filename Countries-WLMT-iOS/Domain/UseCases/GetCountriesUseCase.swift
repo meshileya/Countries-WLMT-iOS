@@ -16,7 +16,7 @@ class GetCountriesUseCase{
     }
     
     func execute() -> AnyPublisher<[CountryUIItem], Error>{
-        let countries = repository.getCountries()
+        let countriesPublisher = repository.getCountries()
             .map{countries in
                 var countryLetter: Character? = nil
                 
@@ -31,7 +31,7 @@ class GetCountriesUseCase{
                 
                 
             }.eraseToAnyPublisher()
-        return countries
+        return countriesPublisher
         
     }
 }
