@@ -94,8 +94,11 @@
 		18D110CA2BFACE3400DB3C39 /* Countries-WLMT-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				18D110FE2BFAD4E100DB3C39 /* Presentation */,
+				18D110F72BFAD43F00DB3C39 /* Domain */,
+				18D110F62BFAD41E00DB3C39 /* Data */,
+				18D110F52BFAD40B00DB3C39 /* Models */,
 				18D110CB2BFACE3400DB3C39 /* Countries_WLMT_iOSApp.swift */,
-				18D110CD2BFACE3400DB3C39 /* ContentView.swift */,
 				18D110CF2BFACE3A00DB3C39 /* Assets.xcassets */,
 				18D110D12BFACE3A00DB3C39 /* Preview Content */,
 			);
@@ -125,6 +128,99 @@
 				18D110E82BFACE3B00DB3C39 /* Countries_WLMT_iOSUITestsLaunchTests.swift */,
 			);
 			path = "Countries-WLMT-iOSUITests";
+			sourceTree = "<group>";
+		};
+		18D110F52BFAD40B00DB3C39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18D110F62BFAD41E00DB3C39 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18D110FD2BFAD4D400DB3C39 /* Repositories */,
+				18D110FC2BFAD4CE00DB3C39 /* Local */,
+				18D110FB2BFAD4C800DB3C39 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		18D110F72BFAD43F00DB3C39 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				18D110FA2BFAD4BA00DB3C39 /* UseCases */,
+				18D110F92BFAD4B200DB3C39 /* Repositories */,
+				18D110F82BFAD4A600DB3C39 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		18D110F82BFAD4A600DB3C39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18D110F92BFAD4B200DB3C39 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		18D110FA2BFAD4BA00DB3C39 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		18D110FB2BFAD4C800DB3C39 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		18D110FC2BFAD4CE00DB3C39 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		18D110FD2BFAD4D400DB3C39 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		18D110FE2BFAD4E100DB3C39 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				18D111002BFAD4F400DB3C39 /* Views */,
+				18D110FF2BFAD4EA00DB3C39 /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		18D110FF2BFAD4EA00DB3C39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18D111002BFAD4F400DB3C39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18D110CD2BFACE3400DB3C39 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
