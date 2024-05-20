@@ -23,6 +23,7 @@
 		18D1110E2BFAE29700DB3C39 /* CountryLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1110D2BFAE29700DB3C39 /* CountryLocalDataSource.swift */; };
 		18D111102BFAE59200DB3C39 /* CountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1110F2BFAE59200DB3C39 /* CountryRepository.swift */; };
 		18D111122BFAEB1200DB3C39 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111112BFAEB1200DB3C39 /* CountryViewModel.swift */; };
+		18D111142BFB220400DB3C39 /* CountryUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111132BFB220400DB3C39 /* CountryUIItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		18D1110D2BFAE29700DB3C39 /* CountryLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryLocalDataSource.swift; sourceTree = "<group>"; };
 		18D1110F2BFAE59200DB3C39 /* CountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRepository.swift; sourceTree = "<group>"; };
 		18D111112BFAEB1200DB3C39 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		18D111132BFB220400DB3C39 /* CountryUIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryUIItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				18D111012BFAD54800DB3C39 /* CountryItem.swift */,
 				18D111032BFAD7AE00DB3C39 /* CurrencyItem.swift */,
 				18D111052BFAD7DA00DB3C39 /* LanguageItem.swift */,
+				18D111132BFB220400DB3C39 /* CountryUIItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				18D111102BFAE59200DB3C39 /* CountryRepository.swift in Sources */,
 				18D111082BFADA6200DB3C39 /* CountryRepositoryProtocol.swift in Sources */,
 				18D110CE2BFACE3400DB3C39 /* ContentView.swift in Sources */,
+				18D111142BFB220400DB3C39 /* CountryUIItem.swift in Sources */,
 				18D111022BFAD54800DB3C39 /* CountryItem.swift in Sources */,
 				18D111122BFAEB1200DB3C39 /* CountryViewModel.swift in Sources */,
 				18D1110C2BFADD4D00DB3C39 /* CountryRemoteDataSource.swift in Sources */,

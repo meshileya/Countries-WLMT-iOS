@@ -15,7 +15,23 @@ class GetCountriesUseCase{
         self.repository = repository
     }
     
-    func execute() -> AnyPublisher<[CountryItem], Error>{
-        return repository.getCountries()
+    func execute() -> AnyPublisher<[CountryUIItem], Error>{
+        let countries = repository.getCountries()
+            .map{countries in
+                var countryLetter: Character? = nil
+                
+                return countries.sorted(by: {$0.countryName < $1.countryName}).map{ country -> CountryUIItem in
+                    let countryChar = country.countryName.first ?? Character("")
+                    if countryLetter == nil || countryChar != countryLetter{
+                        countryLetter = countryChar
+                        return .headerUI("\(countryChar)")
+                    }
+                    return .countryUI(country)
+                }
+                
+                
+            }.eraseToAnyPublisher()
+        return countries
+        
     }
 }

@@ -10,7 +10,7 @@ import Combine
 
 class CountryViewModel: ObservableObject{
     
-    @Published var countries: [CountryItem] = []
+    @Published var countries: [CountryUIItem] = []
     @Published var isLoading = false
     @Published var errorMessage: String?
     

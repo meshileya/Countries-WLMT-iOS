@@ -10,6 +10,7 @@ import Combine
 
 struct ContentView: View {
     @StateObject private var viewModel: CountryViewModel
+    @State private var searchText: String = ""
     
     init(viewModel: CountryViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel)
@@ -17,27 +18,41 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            Group {
-                if viewModel.isLoading {
-                    ProgressView("Loading...")
-                } else if let errorMessage = viewModel.errorMessage {
-                    Text("Error: \(errorMessage)")
-                } else {
-                    List(viewModel.countries) { country in
-                        VStack(alignment: .leading) {
-                            HStack{
-                                Text("Country: \(country.countryName)")
-                                    .font(.headline)
-                                Spacer()
-                                Text("Code: \(country.countryCode ?? "NA")")
-                                    .font(.subheadline)
+            VStack{
+//                UISearchBar()
+                Group {
+                    if viewModel.isLoading {
+                        ProgressView("Loading...")
+                    } else if let errorMessage = viewModel.errorMessage {
+                        Text("Error: \(errorMessage)")
+                    } else {
+                        List(viewModel.countries) { uiItem in
+                            
+                            switch uiItem{
+                            case .countryUI(let countryItem):
+                                VStack(alignment: .leading) {
+                                    HStack{
+                                        Text("Country: \(countryItem.countryName)")
+                                            .font(.headline)
+                                        Spacer()
+                                        Text("Code: \(countryItem.countryCode ?? "NA")")
+                                            .font(.subheadline)
+                                    }
+                                    Text("Capital: \(countryItem.capital ?? "NA")")
+                                        .font(.headline)
+                                }
+                            case .headerUI(let header):
+                                Text("\(header)")
+                                    .font(.largeTitle)
+                                
                             }
-                            Text("Capital: \(country.capital ?? "NA")")
-                                .font(.headline)
+                            
+                            
                         }
                     }
                 }
             }
+            
             .navigationTitle("Countries")
             .onAppear {
                 viewModel.fetchCountries()
