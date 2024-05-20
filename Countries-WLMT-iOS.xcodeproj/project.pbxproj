@@ -14,6 +14,16 @@
 		18D110DD2BFACE3B00DB3C39 /* Countries_WLMT_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D110DC2BFACE3B00DB3C39 /* Countries_WLMT_iOSTests.swift */; };
 		18D110E72BFACE3B00DB3C39 /* Countries_WLMT_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D110E62BFACE3B00DB3C39 /* Countries_WLMT_iOSUITests.swift */; };
 		18D110E92BFACE3B00DB3C39 /* Countries_WLMT_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D110E82BFACE3B00DB3C39 /* Countries_WLMT_iOSUITestsLaunchTests.swift */; };
+		18D111022BFAD54800DB3C39 /* CountryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111012BFAD54800DB3C39 /* CountryItem.swift */; };
+		18D111042BFAD7AE00DB3C39 /* CurrencyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111032BFAD7AE00DB3C39 /* CurrencyItem.swift */; };
+		18D111062BFAD7DA00DB3C39 /* LanguageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111052BFAD7DA00DB3C39 /* LanguageItem.swift */; };
+		18D111082BFADA6200DB3C39 /* CountryRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111072BFADA6200DB3C39 /* CountryRepositoryProtocol.swift */; };
+		18D1110A2BFADC5400DB3C39 /* GetCountriesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111092BFADC5400DB3C39 /* GetCountriesUseCase.swift */; };
+		18D1110C2BFADD4D00DB3C39 /* CountryRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1110B2BFADD4D00DB3C39 /* CountryRemoteDataSource.swift */; };
+		18D1110E2BFAE29700DB3C39 /* CountryLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1110D2BFAE29700DB3C39 /* CountryLocalDataSource.swift */; };
+		18D111102BFAE59200DB3C39 /* CountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1110F2BFAE59200DB3C39 /* CountryRepository.swift */; };
+		18D111122BFAEB1200DB3C39 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111112BFAEB1200DB3C39 /* CountryViewModel.swift */; };
+		18D111142BFB220400DB3C39 /* CountryUIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D111132BFB220400DB3C39 /* CountryUIItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		18D110E22BFACE3B00DB3C39 /* Countries-WLMT-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countries-WLMT-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D110E62BFACE3B00DB3C39 /* Countries_WLMT_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries_WLMT_iOSUITests.swift; sourceTree = "<group>"; };
 		18D110E82BFACE3B00DB3C39 /* Countries_WLMT_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries_WLMT_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D111012BFAD54800DB3C39 /* CountryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryItem.swift; sourceTree = "<group>"; };
+		18D111032BFAD7AE00DB3C39 /* CurrencyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyItem.swift; sourceTree = "<group>"; };
+		18D111052BFAD7DA00DB3C39 /* LanguageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageItem.swift; sourceTree = "<group>"; };
+		18D111072BFADA6200DB3C39 /* CountryRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRepositoryProtocol.swift; sourceTree = "<group>"; };
+		18D111092BFADC5400DB3C39 /* GetCountriesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCountriesUseCase.swift; sourceTree = "<group>"; };
+		18D1110B2BFADD4D00DB3C39 /* CountryRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRemoteDataSource.swift; sourceTree = "<group>"; };
+		18D1110D2BFAE29700DB3C39 /* CountryLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryLocalDataSource.swift; sourceTree = "<group>"; };
+		18D1110F2BFAE59200DB3C39 /* CountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRepository.swift; sourceTree = "<group>"; };
+		18D111112BFAEB1200DB3C39 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		18D111132BFB220400DB3C39 /* CountryUIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryUIItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,10 @@
 		18D110CA2BFACE3400DB3C39 /* Countries-WLMT-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				18D110FE2BFAD4E100DB3C39 /* Presentation */,
+				18D110F72BFAD43F00DB3C39 /* Domain */,
+				18D110F62BFAD41E00DB3C39 /* Data */,
 				18D110CB2BFACE3400DB3C39 /* Countries_WLMT_iOSApp.swift */,
-				18D110CD2BFACE3400DB3C39 /* ContentView.swift */,
 				18D110CF2BFACE3A00DB3C39 /* Assets.xcassets */,
 				18D110D12BFACE3A00DB3C39 /* Preview Content */,
 			);
@@ -125,6 +147,102 @@
 				18D110E82BFACE3B00DB3C39 /* Countries_WLMT_iOSUITestsLaunchTests.swift */,
 			);
 			path = "Countries-WLMT-iOSUITests";
+			sourceTree = "<group>";
+		};
+		18D110F62BFAD41E00DB3C39 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				18D110FD2BFAD4D400DB3C39 /* Repositories */,
+				18D110FC2BFAD4CE00DB3C39 /* Local */,
+				18D110FB2BFAD4C800DB3C39 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		18D110F72BFAD43F00DB3C39 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				18D110FA2BFAD4BA00DB3C39 /* UseCases */,
+				18D110F92BFAD4B200DB3C39 /* Repositories */,
+				18D110F82BFAD4A600DB3C39 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		18D110F82BFAD4A600DB3C39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18D111012BFAD54800DB3C39 /* CountryItem.swift */,
+				18D111032BFAD7AE00DB3C39 /* CurrencyItem.swift */,
+				18D111052BFAD7DA00DB3C39 /* LanguageItem.swift */,
+				18D111132BFB220400DB3C39 /* CountryUIItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18D110F92BFAD4B200DB3C39 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				18D111072BFADA6200DB3C39 /* CountryRepositoryProtocol.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		18D110FA2BFAD4BA00DB3C39 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				18D111092BFADC5400DB3C39 /* GetCountriesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		18D110FB2BFAD4C800DB3C39 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				18D1110B2BFADD4D00DB3C39 /* CountryRemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		18D110FC2BFAD4CE00DB3C39 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				18D1110D2BFAE29700DB3C39 /* CountryLocalDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		18D110FD2BFAD4D400DB3C39 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				18D1110F2BFAE59200DB3C39 /* CountryRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		18D110FE2BFAD4E100DB3C39 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				18D111002BFAD4F400DB3C39 /* Views */,
+				18D110FF2BFAD4EA00DB3C39 /* ViewModels */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		18D110FF2BFAD4EA00DB3C39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18D111112BFAEB1200DB3C39 /* CountryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18D111002BFAD4F400DB3C39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18D110CD2BFACE3400DB3C39 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +375,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D111102BFAE59200DB3C39 /* CountryRepository.swift in Sources */,
+				18D111082BFADA6200DB3C39 /* CountryRepositoryProtocol.swift in Sources */,
 				18D110CE2BFACE3400DB3C39 /* ContentView.swift in Sources */,
+				18D111142BFB220400DB3C39 /* CountryUIItem.swift in Sources */,
+				18D111022BFAD54800DB3C39 /* CountryItem.swift in Sources */,
+				18D111122BFAEB1200DB3C39 /* CountryViewModel.swift in Sources */,
+				18D1110C2BFADD4D00DB3C39 /* CountryRemoteDataSource.swift in Sources */,
+				18D1110E2BFAE29700DB3C39 /* CountryLocalDataSource.swift in Sources */,
 				18D110CC2BFACE3400DB3C39 /* Countries_WLMT_iOSApp.swift in Sources */,
+				18D111062BFAD7DA00DB3C39 /* LanguageItem.swift in Sources */,
+				18D111042BFAD7AE00DB3C39 /* CurrencyItem.swift in Sources */,
+				18D1110A2BFADC5400DB3C39 /* GetCountriesUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
