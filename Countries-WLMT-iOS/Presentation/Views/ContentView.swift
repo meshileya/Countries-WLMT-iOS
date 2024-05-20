@@ -25,10 +25,15 @@ struct ContentView: View {
                 } else {
                     List(viewModel.countries) { country in
                         VStack(alignment: .leading) {
-                            Text(country.countryName)
+                            HStack{
+                                Text("Country: \(country.countryName)")
+                                    .font(.headline)
+                                Spacer()
+                                Text("Code: \(country.countryCode ?? "NA")")
+                                    .font(.subheadline)
+                            }
+                            Text("Capital: \(country.capital ?? "NA")")
                                 .font(.headline)
-                            Text(country.countryCode ?? "NA")
-                                .font(.subheadline)
                         }
                     }
                 }
